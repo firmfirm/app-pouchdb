@@ -96,7 +96,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
        * @return {Promise} A promise that resolves when the document update has
        * completed, or rejects with any unhandled error.
        */
-      _put: function(path, value, doc) {
+      _put: function(path, value, doc = value) {
         if (this.upsert) {
           return this._upsert(path, value, doc);
         } else {
