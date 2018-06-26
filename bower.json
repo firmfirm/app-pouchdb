@@ -17,7 +17,7 @@
   "private": true,
   "ignore": [],
   "dependencies": {
-    "pouchdb": "^6.1.1",
+    "pouchdb": "^7.0.0",
     "polymer": "Polymer/polymer#1.9 - 2",
     "pouchdb-find": "^0.10.0",
     "app-storage": "polymerelements/app-storage#1 - 2"

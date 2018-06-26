@@ -83,6 +83,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
      * completed, or rejects with any unhandled error.
      */
     _put: function(path, value, doc) {
+      if (typeof doc === 'undefined') {
+        doc = value;
+      }
       if (this.upsert) {
         return this._upsert(path, value, doc);
       } else {
