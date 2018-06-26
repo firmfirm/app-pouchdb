@@ -19,7 +19,7 @@
   "dependencies": {
     "pouchdb": "^7.0.0",
     "polymer": "Polymer/polymer#~2.0.2",
-    "app-storage": "PolymerElements/app-storage#~2.0.0"
+    "app-storage": "git@github.com:firmfirm/app-storage#v2.0.0"
   },
   "devDependencies": {
     "iron-component-page": "polymerelements/iron-component-page#1 - 2",
